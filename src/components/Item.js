@@ -30,6 +30,7 @@ export default function Item({ totales, setTotales, item }) {
 
       <p>{item.producto.descripcion}</p>
 
+      {/* Cuando muestra el número no lo meto en un span para que sea tal cual al ejemplo del .gif :D */}
       <h5> En stock: {stock > 0 ? stock : <span>AGOTADO</span> } </h5>
     
       <button 
